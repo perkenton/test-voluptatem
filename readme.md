@@ -18,4 +18,4 @@
 - Запустить сборку production-билда — `npm run build`
 - Разместить production-билд на github pages — `npm run deploy`
 
-[1]: https://perkenton.github.io/traveling-in-russia/
+[1]: https://perkenton.github.io/test-voluptatem/
