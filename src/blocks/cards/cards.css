@@ -1,0 +1,23 @@
+.cards {
+  max-width: 1280px;
+  width: calc(100% - 48px);
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    width: calc(100% - 64px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards {
+    width: calc(100% - 96px);
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 0 32px;
+  }
+}

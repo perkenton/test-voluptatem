@@ -1,0 +1,32 @@
+@import url(./__image/card__image.css);
+@import url(./__image/_circle/card__image_circle.css);
+@import url(./__image/_top-left-radius/card__image_top-left-radius.css);
+@import url(./__image/_top-right-radius/card__image_top-right-radius.css);
+@import url(./__text/card__text.css);
+@import url(./__text-block/card__text-block.css);
+@import url(./__time/card__time.css);
+@import url(./__title/card__title.css);
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row-reverse;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    padding-bottom: 32px;
+  }
+
+  .card:nth-child(4n+4), .card:nth-child(4n+5) {
+    flex-direction: row;
+  }
+}
