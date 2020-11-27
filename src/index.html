@@ -15,7 +15,7 @@
 
     <header class="header">
       <h1 class="header__title">
-        <a href="./subscribe" class="header__logo-link">Voluptatem illo assumenda</a>
+        <a href="./" class="header__logo-link header__logo-link_main-page">Voluptatem illo assumenda</a>
       </h1>
     </header>
 
@@ -26,7 +26,7 @@
         <div class="card__text-block">
           <h3 class="card__title">Izabella8</h3>
           <p class="card__text">Global Infrastructure Architect</p>
-          <p class="card__time">08:30&nbsp;&mdash; 09:00</p>
+          <p class="card__time">08:30&nbsp;&ndash; 09:00</p>
           <p class="card__text">Qui eos a&nbsp;quia dolorem sapiente deserunt ut&nbsp;expedita sunt. Quia perspiciatis quo excepturi id&nbsp;dolor voluptatem aut adipisci.</p>
         </div>
         <img src="<%=require('./images/cards-image-1.png').default%>" alt="Izabella" class="card__image card__image_top-left-radius">
@@ -36,7 +36,7 @@
         <div class="card__text-block">
           <h3 class="card__title">Izabella8</h3>
           <p class="card__text">Global Infrastructure Architect</p>
-          <p class="card__time">08:30&nbsp;&mdash; 09:00</p>
+          <p class="card__time">08:30&nbsp;&ndash; 09:00</p>
           <p class="card__text">Qui eos a&nbsp;quia dolorem sapiente deserunt ut&nbsp;expedita sunt. Quia perspiciatis quo excepturi id&nbsp;dolor voluptatem aut adipisci.</p>
         </div>
         <img src="<%=require('./images/cards-image-2.png').default%>" alt="Izabella" class="card__image card__image_circle">
@@ -46,7 +46,7 @@
         <div class="card__text-block">
           <h3 class="card__title">Izabella8</h3>
           <p class="card__text">Global Infrastructure Architect</p>
-          <p class="card__time">08:30&nbsp;&mdash; 09:00</p>
+          <p class="card__time">08:30&nbsp;&ndash; 09:00</p>
           <p class="card__text">Qui eos a&nbsp;quia dolorem sapiente deserunt ut&nbsp;expedita sunt. Quia perspiciatis quo excepturi id&nbsp;dolor voluptatem aut adipisci.</p>
         </div>
         <img src="<%=require('./images/cards-image-3.png').default%>" alt="Izabella" class="card__image">
@@ -56,11 +56,68 @@
         <div class="card__text-block">
           <h3 class="card__title">Izabella8</h3>
           <p class="card__text">Global Infrastructure Architect</p>
-          <p class="card__time">08:30&nbsp;&mdash; 09:00</p>
+          <p class="card__time">08:30&nbsp;&ndash; 09:00</p>
           <p class="card__text">Qui eos a&nbsp;quia dolorem sapiente deserunt ut&nbsp;expedita sunt. Quia perspiciatis quo excepturi id&nbsp;dolor voluptatem aut adipisci.</p>
         </div>
         <img src="<%=require('./images/cards-image-4.png').default%>" alt="Izabella" class="card__image card__image_top-right-radius">
       </div>
+
+    </section>
+
+    <header class="header">
+      <h1 class="header__title">
+        <a href="./" class="header__logo-link header__logo-link_main-page">Voluptatem illo assumenda</a>
+      </h1>
+    </header>
+
+    <section class="subscribe">
+      <h2 class="visually-hidden">Subscribe form</h2>
+
+      <div class="subscribe__text-block">
+        <p class="subscribe__subtitle-block"><span class="subscribe__subtitle">Start:</span><span class="subscribe__text">october&nbsp;29</span></p>
+        <p class="subscribe__subtitle-block"><span class="subscribe__subtitle">Remained:</span><span class="subscribe__text">15&nbsp;seats</span></p>
+        <p class="subscribe__description">Qui eos a&nbsp;quia dolorem sapiente deserunt ut&nbsp;expedita sunt. Quia perspiciatis quo excepturi id&nbsp;dolor voluptatem aut adipisci.</p>
+      </div>
+
+      <div class="subscribe__cost">
+        <p class="subscribe__cost-subtitle">Labore qui et animi.</p>
+
+        <div class="subscribe__cost-sum-block">
+          <p class="subscribe__cost-sum">325&nbsp;900&nbsp;₽</p>
+          <p class="subscribe__cost-per">per month</p>
+        </div>
+
+        <div class="subscribe__cost-discount">
+          <p class="subscribe__cost-discount-sum">-40%</p>
+          <p class="subscribe__cost-discount-condition">until 28 december</p>
+        </div>
+
+        <p class="subscribe__cost-installment">installment plan without discount</p>
+        <p class="subscribe__cost-installment-sum">5000&nbsp;₽/month</p>
+      </div>
+
+      <form class="subscribe__form" name="subscribe" action="http://httpbin.org/post" method="POST">
+        <input
+                type="email"
+                placeholder="Your email"
+                pattern="^([A-Za-z0-9]+([A-Za-z0-9][-_]?)*)@([-A-z0-9]+\.)+[A-z]{2,}$"
+                name="email"
+                class="subscribe__form-input">
+        <input
+                type="text"
+                placeholder="Your phone"
+                pattern="^(8|\+7)(\(\d{3}\)[\s]?(\d{3})-(\d{2})-(\d{2}))|(8|\+7)([\s](\d{3})-(\d{3})-(\d{2})-(\d{2}))|(8|\+7)(\d{10})$"
+                name="tel"
+                class="subscribe__form-input">
+        <input
+                type="text"
+                placeholder="Your name"
+                pattern="^([А-ЯЁ][а-яё]{1,19}|[А-ЯЁ][а-я]+-[А-ЯЁ][а-яё]+)"
+                name="name"
+                class="subscribe__form-input">
+
+        <button type="submit" class="subscribe__form-button">Subscribe</button>
+      </form>
 
     </section>
 

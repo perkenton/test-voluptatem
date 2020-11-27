@@ -1,0 +1,20 @@
+.header__logo-link_subscribe-page {
+  font-size: 30px;
+  line-height: 34px;
+}
+
+/* TODO: узнать у дизайнера намрено отличается размер шрифта логотипа на 768px на разных страницах или нет */
+
+@media (min-width: 768px) {
+  .header__logo-link_subscribe-page {
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__logo-link_subscribe-page {
+    font-size: 72px;
+    line-height: 86px;
+  }
+}

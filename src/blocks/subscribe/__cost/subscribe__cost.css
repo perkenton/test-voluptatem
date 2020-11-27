@@ -1,0 +1,29 @@
+.subscribe__cost {
+  width: 100%;
+  max-width: 343px;
+
+  padding-top: 23px;
+  padding-bottom: 21px;
+  padding-left: 16px;
+  padding-right: 10px;
+
+  box-sizing: border-box;
+  background-color: #F4F4F4;
+
+  grid-area: subscribe__cost;
+}
+
+@media (min-width: 768px) {
+  .subscribe__cost {
+    padding-top: 30px;
+    padding-bottom: 31px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .subscribe__cost {
+    max-width: 100%;
+    padding-top: 47px;
+    padding-left: 42px;
+  }
+}

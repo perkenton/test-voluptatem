@@ -1,0 +1,26 @@
+.subscribe__cost-discount {
+  display: inline-block;
+
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  margin-top: 24px;
+
+  vertical-align: top;
+  background-color: #FEF653;
+}
+
+@media (min-width: 768px) {
+  .subscribe__cost-discount {
+    padding-right: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .subscribe__cost-discount {
+    margin-top: 34px;
+    padding-top: 6px;
+  }
+}

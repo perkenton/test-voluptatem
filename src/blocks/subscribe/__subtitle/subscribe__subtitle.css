@@ -1,28 +1,24 @@
-.card__title {
+.subscribe__subtitle {
   font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
-  text-decoration: none;
   color: #000;
 
-  margin-top: 0;
-  margin-bottom: 1px;
-
-  transition: .3s linear;
+  margin-right: 9px;
 }
 
 @media (min-width: 768px) {
-  .card__title {
+  .subscribe__subtitle {
     font-size: 18px;
     line-height: 25px;
   }
 }
 
 @media (min-width: 1200px) {
-  .card__title {
+  .subscribe__subtitle {
     font-size: 20px;
     line-height: 28px;
   }

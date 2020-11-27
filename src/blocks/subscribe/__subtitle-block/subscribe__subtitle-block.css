@@ -1,0 +1,10 @@
+.subscribe__subtitle-block {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+@media (min-width: 1200px) {
+  .subscribe__subtitle-block {
+    margin-bottom: 23px;
+  }
+}

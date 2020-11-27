@@ -17,7 +17,7 @@
 @media (min-width: 768px) {
   .card {
     flex-direction: row-reverse;
-    padding-bottom: 50px;
+    padding-bottom: 48px;
   }
 }
 

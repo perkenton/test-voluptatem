@@ -1,0 +1,56 @@
+@import url(./__cost/subscribe__cost.css);
+@import url(./__cost-discount/subscribe__cost-discount.css);
+@import url(./__cost-discount-condition/subscribe__cost-discount-condition.css);
+@import url(./__cost-discount-sum/subscribe__cost-discount-sum.css);
+@import url(./__cost-installment/subscribe__cost-installment.css);
+@import url(./__cost-installment-sum/subscribe__cost-installment-sum.css);
+@import url(./__cost-per/subscribe__cost-per.css);
+@import url(./__cost-subtitle/subscribe__cost-subtitle.css);
+@import url(./__cost-sum/subscribe__cost-sum.css);
+@import url(./__cost-sum-block/subscribe__cost-sum-block.css);
+@import url(./__description/subscribe__description.css);
+@import url(./__form/subscribe__form.css);
+@import url(./__form-button/subscribe__form-button.css);
+@import url(./__form-input/subscribe__form-input.css);
+@import url(./__subtitle/subscribe__subtitle.css);
+@import url(./__subtitle-block/subscribe__subtitle-block.css);
+@import url(./__text/subscribe__text.css);
+@import url(./__text-block/subscribe__text-block.css);
+
+.subscribe {
+  max-width: 1280px;
+  width: calc(100% - 40px);
+
+  display: grid;
+  grid-template-areas:
+    'subscribe__text-block'
+    'subscribe__cost'
+    'subscribe__form';
+  margin: 0 auto;
+
+  /*box-sizing: border-box;*/
+  /*border-left: 1px solid #000;*/
+  /*border-right: 1px solid #000;*/
+}
+
+@media (min-width: 768px) {
+  .subscribe {
+    width: calc(100% - 64px);
+    grid-template-areas:
+    'subscribe__text-block subscribe__cost'
+    'subscribe__text-block subscribe__form';
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .subscribe {
+    width: calc(100% - 96px);
+    grid-template-areas:
+    'subscribe__text-block subscribe__cost'
+    'subscribe__form subscribe__cost';
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 32px;
+  }
+}

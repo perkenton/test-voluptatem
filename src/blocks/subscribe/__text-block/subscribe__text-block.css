@@ -1,0 +1,18 @@
+.subscribe__text-block {
+  margin-top: 0;
+  margin-bottom: 16px;
+
+  grid-area: subscribe__text-block;
+}
+
+@media (min-width: 768px) {
+  .subscribe__text-block {
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .subscribe__text-block {
+    margin-bottom: 0;
+  }
+}

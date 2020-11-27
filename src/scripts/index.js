@@ -4,5 +4,9 @@ import '../pages/index.css';
 
 (function() {
 
+  document.querySelector('.subscribe__form-button').addEventListener('click', (event) => {
+    event.preventDefault();
+    alert('Done!');
+  })
 
 })();

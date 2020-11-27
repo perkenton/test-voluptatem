@@ -9,7 +9,6 @@ const isDev = process.env.NODE_ENV === 'development';
 module.exports = {
   entry: { 
     index: './src/scripts/index.js',
-    subscribe: './src/scripts/subscribe.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -91,12 +90,6 @@ module.exports = {
       template: './src/index.html',
       chunks: ['index'],
       filename: 'index.html'
-    }),
-    new HtmlWebpackPlugin({
-      inject: false,
-      template: './src/subscribe.html',
-      chunks: ['subscribe'],
-      filename: 'subscribe.html'
     }),
     new WebpackMd5Hash(),
     new webpack.DefinePlugin({

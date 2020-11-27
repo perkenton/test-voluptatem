@@ -1,0 +1,51 @@
+.subscribe__form-button {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: #000;
+
+  border: 0;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+
+  margin-top: 7px;
+  padding: 0;
+
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+.subscribe__form-button:focus {
+  outline: 1px dotted #1519ff;
+}
+
+.subscribe__form-button:hover {
+  border-bottom: 1px solid #1519ff;
+  background-color: #1519ff;
+  color: #fff;
+}
+
+.subscribe__form-button:active {
+  transform: scale(.95);
+}
+
+@media (min-width: 768px) {
+  .subscribe__form-button {
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 4px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .subscribe__form-button {
+    font-size: 30px;
+    line-height: 33px;
+    margin-top: 8px;
+  }
+}

@@ -1,4 +1,6 @@
 @import url(./__logo-link/header__logo-link.css);
+@import url(./__logo-link/_main-page/header__logo-link_main-page.css);
+@import url(./__logo-link/_subscribe-page/header__logo-link_subscribe-page.css);
 @import url(./__title/header__title.css);
 
 .header {
